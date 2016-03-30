@@ -2,7 +2,7 @@
 * @Author: xiaolang
 * @Date:   2016-03-30 20:30:13
 * @Last Modified by:   xiaolang
-* @Last Modified time: 2016-03-30 21:36:14
+* @Last Modified time: 2016-03-30 21:44:17
 */
 * {
 }
@@ -10,7 +10,7 @@
 .main {
     background-color: #eee;
     border: 1px solid #999;
-    overflow: auto;
+    /*overflow: auto;*/
     padding: 20px;
 
 }

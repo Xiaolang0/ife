@@ -1,0 +1,60 @@
+/*
+* @Author: xiaolang
+* @Date:   2016-03-30 20:30:13
+* @Last Modified by:   xiaolang
+* @Last Modified time: 2016-03-30 21:36:14
+*/
+* {
+}
+
+.main {
+    background-color: #eee;
+    border: 1px solid #999;
+    overflow: auto;
+    padding: 20px;
+
+}
+
+img {
+    border: 1px solid #999;
+
+}
+
+.leftbar {
+    border: 1px solid #999;
+    width: 200px;
+    float: left;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.leftbar .team_name {
+    width: 80px;
+    float: right;
+    text-align: left;
+}
+
+.content {
+    border: 1px solid #999;
+    margin-left: 260px;
+    margin-right: 180px;
+    padding: 20px;
+}
+
+.content p {
+    text-indent: 32px;
+}
+
+.rightbar {
+    width: 120px;
+    border: 1px solid #999;
+    float: right;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.rightbar img {
+    border: 1px solid #999;
+    margin: 10px 0;
+}

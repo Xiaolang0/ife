@@ -1,0 +1,193 @@
+/*
+* @Author: xiaolang
+* @Date:   2016-03-20 18:30:53
+* @Last Modified by:   xiaolang
+* @Last Modified time: 2016-04-01 15:41:04
+*/
+body {
+    margin: 0;
+    background-color: #DEDEDE;
+}
+
+#header {
+    margin-top: 0;
+    background-color: #333;
+    height: 60px;
+}
+
+.logo {
+    float: left;
+    max-height: 48px;
+    margin: 10px 40px 3px 40px;
+}
+
+#header .header-nav {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    list-style-type: circle;
+}
+
+#header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#header .header-nav li {
+    margin-left: 2em;
+    display: inline;
+    list-style-type: circle;
+}
+
+
+
+article,
+aside {
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 2px 2px 2px #999;
+    background-color: #fff;
+}
+
+article {
+    margin-right: 620px;
+}
+
+h3 {
+    color: #666;
+}
+
+.author {
+    color: #666;
+    font-size: 12.5px;
+    text-indent: 0;
+}
+
+article p {
+    text-indent: 32px;
+}
+
+.no-point {
+    list-style-type: none;
+}
+
+.image-group {
+    list-style: outside none none;
+    text-align: center;
+    width: 90%;
+}
+
+.image-group img {
+    max-width: 90%;
+}
+
+.image-group li {
+    display: block;
+    border: 1px solid #000;
+    width: 300px;
+    margin: 1%;
+    padding: 20px;
+    display: inline-block;
+    width: 120px;
+    overflow: hidden;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #999;
+}
+
+.table tr td,
+.table tr th {
+        border: 1px solid #999;
+}
+
+.table thead :first-child {
+    background-color: #333333;
+    color: #fff;
+    text-align: left;
+}
+
+.table>tbody>:last-child {
+    background-color: #CCCCCC;
+
+}
+
+aside {
+    float: right;
+    width: 500px;
+    margin: 20px;
+}
+
+aside h2 {
+    border-left: 5px solid #999;
+    padding-left: 10px;
+}
+
+aside>form>div {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+aside label {
+    display: inline-block;
+    width: 33%;
+    text-align: right;
+}
+
+aside p {
+    display: inline-block;
+    color: #999;
+    margin: 5px;
+}
+
+aside input[type="button"] {
+    display: block;
+    width: 100%;
+    margin: 10px;
+    height: 50px;
+    background-color: #3355D0;
+    border: 0;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#textarea {
+    vertical-align: top;
+}
+
+footer {
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

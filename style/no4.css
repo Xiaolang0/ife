@@ -1,0 +1,50 @@
+/*
+* @Author: xiaolang
+* @Date:   2016-03-31 09:28:14
+* @Last Modified by:   xiaolang
+* @Last Modified time: 2016-04-01 14:32:46
+*/
+* {
+    /*position: relative;*/
+    padding: 0;
+    margin: 0;
+    /*height: 100%;*/
+}
+
+.grey {
+    width: 400px;
+    background-color: #ccc;
+    position: absolute;
+    /*margin-top: 50%;*/
+    /*margin-top: 20%;*/
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    overflow: hidden;
+    margin-top: -100px;
+}
+
+.top-left {
+    width: 100px;
+    background-color: #fc0;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: -50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bottom-right {
+    width: 100px;
+    height: 100px;
+    background-color: #fc0;
+    margin-right: -50px;
+    margin-bottom: -50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

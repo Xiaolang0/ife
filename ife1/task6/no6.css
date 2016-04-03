@@ -1,0 +1,205 @@
+/*
+* @Author: xiaolang
+* @Date:   2016-04-01 17:12:53
+* @Last Modified by:   xiaolang
+* @Last Modified time: 2016-04-02 20:50:11
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #999;
+    font-family: "黑体";
+}
+
+.container {
+    background-color: #fff;
+
+    width: 960px;
+    margin: 0 auto;
+    height: 1386px;
+
+}
+
+.header {
+    width: 892px;
+    height: 61px;
+    border-bottom: 2px solid #938e8c;
+    font-size: 12px;
+    margin: 0 auto;
+
+}
+
+.header-title {
+    width: 110px;
+    height: 61px;
+    background-color: #DC5D5F;
+    color: #fff;
+    display: inline-block;
+}
+
+.header-title span {
+    margin-bottom: 0;
+    float: left;
+    margin-top: 45px;
+    margin-left: 5px;
+}
+
+.header-date {
+    float: right;
+    margin-top: 45px;
+    color: #d45d5c;
+}
+
+.title {
+    margin: 20px auto;
+    height: 301px;
+    width: 892px;
+
+}
+
+.title-left {
+    position: relative;
+    float: left;
+    width: 641px;
+}
+
+.over-left,
+.over-right {
+    background: rgba(0,255,0,0.1);
+    width: 191px;
+    height: 301px;
+    position: absolute;
+    top: 0;
+
+}
+
+.over-left {
+    left: 0;
+}
+.over-right {
+    right: 0;
+}
+
+.title-right {
+    float: right;
+    width: 203px;
+    border-top: 2px solid #cc8091;
+    margin: 0 auto;
+    position: relative;
+    font-family: "微软雅黑";
+    height: 301px;
+}
+
+.about {
+    line-height: 40px;
+    font-size: 24px;
+    color: #000;
+    text-decoration: underline;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+.about-description {
+    font-size: 12px;
+    color: #676767;
+    font-family: "楷体";
+    line-height: 10px;
+    font-style: oblique;
+}
+
+.count-text {
+    font-size: 116px;
+    color: #75b86b;
+    text-decoration: underline;
+    font-style: oblique;
+    margin-top: -5px;
+}
+
+.count-1 {
+    font-size: 55px;
+    color: #cc8091;
+    position: absolute;
+    left: 0;
+}
+
+.count-2 {
+    font-size: 21px;
+    position: absolute;
+    color: #cc8091;
+    left: 85px;
+    bottom: 12px;
+}
+
+.count-3 {
+    font-size: 12px;
+    color: #cc8091;
+    position: absolute;
+    bottom: 0;
+    left: 85px;
+}
+
+.description {
+    width: 641px;
+    margin-left: 34px;
+    position: relative;
+    font-family: "微软雅黑";
+}
+
+.d-left {
+    width: 230px;
+    margin-right: 20px;
+    position: absolute;
+    left: 0;
+}
+.what {
+    color: #418C59;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.d-left :last-child {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 5px;
+    letter-spacing: 2px;    
+}
+
+.d-mid {
+    width: 200px;
+    position: absolute;
+    left: 249px;
+}
+
+.when {
+    color: #d2994f;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.d-mid :last-child {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 5px;
+    letter-spacing: 1px;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
